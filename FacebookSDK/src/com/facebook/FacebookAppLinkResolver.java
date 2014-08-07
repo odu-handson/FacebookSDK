@@ -18,7 +18,13 @@ package com.facebook;
 
 import android.net.Uri;
 import android.os.Bundle;
+import bolts.AppLink;
+import bolts.AppLinkResolver;
+import bolts.Continuation;
+import bolts.Task;
+
 import com.facebook.model.GraphObject;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

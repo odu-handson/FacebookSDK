@@ -23,12 +23,15 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.v4.app.Fragment;
+
 import com.facebook.*;
 import com.facebook.internal.AnalyticsEvents;
 import com.facebook.internal.NativeProtocol;
 import com.facebook.internal.Utility;
 import com.facebook.internal.Validate;
 import com.facebook.model.*;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

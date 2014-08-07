@@ -442,7 +442,7 @@ public class TestSession extends Session {
         GraphObject graphObject = response.getGraphObject();
         if (error != null) {
             Log.w(LOG_TAG, String.format("Could not delete test account %s: %s", testAccountId, error.getException().toString()));
-        } else if (graphObject.getProperty(Response.NON_JSON_RESPONSE_PROPERTY) == false) {
+        } else {//if (graphObject.getProperty(Response.NON_JSON_RESPONSE_PROPERTY) == false) {
             Log.w(LOG_TAG, String.format("Could not delete test account %s: unknown reason", testAccountId));
         }
     }

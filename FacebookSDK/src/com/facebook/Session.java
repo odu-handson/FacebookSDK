@@ -20,12 +20,16 @@ import android.app.Activity;
 import android.content.*;
 import android.content.pm.ResolveInfo;
 import android.os.*;
+import android.support.v4.app.Fragment;
+import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 import android.util.Log;
+
 import com.facebook.internal.*;
 import com.facebook.model.GraphMultiResult;
 import com.facebook.model.GraphObject;
 import com.facebook.model.GraphObjectList;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
